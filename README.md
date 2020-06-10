@@ -14,7 +14,7 @@ Class PredDens_IM offers three methods:
 * log_likelihood returns predictive log likelihood
 * JointCI_count returns 1 if future observation is contained in the joint coverage set, 0 if not.
 
-Usage:
+Usage (See also Demo.ipynb):
 * Import PredDens
 * Set optimal scaling in Proposition 2.5
   * scaling_denom = lambda r, kappa: (r**(-kappa))*(1-(r/(r+1))**kappa)/kappa
