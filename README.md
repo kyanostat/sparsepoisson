@@ -17,7 +17,7 @@ Class PredDens_IM in PredDens.py offers three methods:
 * JointCI_count returns 1 if future observation is contained in the joint coverage set, 0 if not.
 
 Usage (See also Demo.ipynb):
-* Import PredDens
+* Import PredDens.py
 * Set optimal scaling in Proposition 2.5
   * scaling_denom = lambda r, kappa: (r**(-kappa))*(1-(r/(r+1))**kappa)/kappa
   * scaling_nom = lambda r: ((r/(r+1))**r)*(1/(r+1))
