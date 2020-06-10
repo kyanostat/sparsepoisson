@@ -11,5 +11,4 @@ This paper discusses predictive densities under the Kullback–Leibler loss for 
 Class PredDens_IM offers three methods:
 * sample_gen returns a sample from the predictive density
 * log_likelihood returns predictive log likelihood
-* CI returns coordinatewise coverage intervals 
 * JointCI_count returns 1 if future observation is contained in the joint coverage set, 0 if not.
