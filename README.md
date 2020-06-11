@@ -11,7 +11,7 @@ This paper discusses predictive densities under the Kullback–Leibler loss for 
 The codes have been developed by Ryoya Kaneko, Keisuke Yano, Fumiyasu Komaki.
 If you have any questions, please contact Keisuke Yano. 
 
-Class PredDens_IM in PredDens.py offers three methods:
+Class ProposedPredictiveDensity in PredDens.py offers three methods:
 * sample_gen returns a sample from the predictive density
 * log_likelihood returns predictive log likelihood
 * JointCI_count returns 1 if future observation is contained in the joint coverage set, 0 if not.
