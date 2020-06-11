@@ -18,6 +18,10 @@ Class ProposedPredictiveDensity in PredDens.py offers three methods:
 
 Usage (See also Demo.ipynb):
 * Import PredDens.py
+* Import math, numpy, numpy.random
+  * from math import *
+  * import numpy as np
+  * import numpy.random as rd
 * Set optimal scaling in Proposition 2.5
   * scaling_denom = lambda r, kappa: (r**(-kappa))*(1-(r/(r+1))**kappa)/kappa
   * scaling_nom = lambda r: ((r/(r+1))**r)*(1/(r+1))
