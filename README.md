@@ -22,5 +22,5 @@ Usage (See also Demo.ipynb):
   * scaling_denom = lambda r, kappa: (r**(-kappa))*(1-(r/(r+1))**kappa)/kappa
   * scaling_nom = lambda r: ((r/(r+1))**r)*(1/(r+1))
   * scaling = lambda r, kappa: np.average(scaling_nom(r))/np.average(scaling_denom(r, kappa))
-* Set an estimate s_hat of the sparsity level (Default: s_hat = len(np.nonzero(x)[0]))
+* Set an estimate s_hat of the sparsity level (Default: s_hat = len(np.nonzero(x)[0]) for current observation x)
 * Define ins_Proposed = PredDens.ProposedPredictiveDensity(eta=scaling(r, kappa) * s_hat / dim, dim = dim, r =r, x = x, kappa = 0.1)
